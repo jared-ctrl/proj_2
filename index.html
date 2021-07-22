@@ -14,41 +14,45 @@
   <body>
     <header>
       <nav class="main-nav">
-        <img src="images/logo/Reservia@3x.png"alt="Reservia" title="reservia">
+        <a href="#" class="nav-img"><img src="images/logo/Reservia@3x.png" alt="Reservia" title="reservia"></a>
         <a href="#" class="nav-link">Accommodations</a>
         <a href="#" class="nav-link">Activities</a>
         <a href="#" class="sign-up">Sign up</a>
       </nav>
 
-      <h2 class="title">Find a place for your dream vication</h2>
+      <h2 class="title">Find a place for your dream vacation</h2>
       <p class="downtown">Downtown or in nature</p>
 
-      <i class="fas fa-map-marker-alt search-icon"></i><imput class="search-bar">Marseille, France </imput><button class="search-button">Search</button>
+      <i class="search fas fa-map-marker-alt search-icon"></i>
+        <input class="search-bar" type="text" placeholder="Marseille, France">
+        <button class="search-button">
+        <i class="search-phone fas fa-search"></i>
+        <span class="search-desk">Search</span>
+      </button>
 
-      <div class="filter-buttons">
+
+      <section class="filter-buttons">
         <h2>Filters</h2>
-        <h3>
-          <button class="button" href="#">
-            <i class="fas fa-money-bill-wave low-cost-icon filter-icon"></i>
-            <span class="filter-text">Low cost</span>
-          </button>
+        <button class="button">
+          <i class="fas fa-money-bill-wave low-cost-icon filter-icon"></i>
+          <span class="filter-text">Low cost</span>
+        </button>
 
-          <button class="button" href="#">
-            <i class="fas fa-child fam-friendly-icon filter-icon"></i>
-            <span class="filter-text">Family-friendly</span>
-          </button>
-          
-          <button class="button" href="#">
-            <i class="fas fa-heart romantic-icon filter-icon"></i>
-            <span class="filter-text">Romantic</span>
-          </button>
+        <button class="button">
+          <i class="fas fa-child fam-friendly-icon filter-icon"></i>
+          <span class="filter-text">Family-friendly</span>
+        </button>
+        
+        <button class="button">
+          <i class="fas fa-heart romantic-icon filter-icon"></i>
+          <span class="filter-text">Romantic</span>
+        </button>
 
-          <button class="button" href="#">
-            <i class="fas fa-dog pets-allowed-icon filter-icon"></i>
-            <span class="filter-text">Pets allowed</span>
-          </button>
-        </h3>
-      </div>
+        <button class="button">
+          <i class="fas fa-dog pets-allowed-icon filter-icon"></i>
+          <span class="filter-text">Pets allowed</span>
+        </button>
+      </section>
 
     </header>
     <div> 
@@ -65,10 +69,10 @@
             <div class="accom-cardwrap">
               <section class="accom-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiere. Night starting at 25€." title="Auberge La Cannebiere">
+                  <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiere. Night starting at €25." title="Auberge La Cannebiere">
                   <div class="accom-text">
-                    <h4>Auderge La Cannebiere</h4>
-                    <p>Night starting at <span class="bold">25€</span> </p>
+                    <h4>Auderge la Cannebiere</h4>
+                    <p>Night starting at <span class="bold">€25</span> </p>
                     <div class="accom-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -82,10 +86,10 @@
                 
               <section class="accom-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port. Night starting at 52€" title="Hotel du port">
+                  <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port. Night starting at €52" title="Hotel du port">
                   <div class="accom-text">
                       <h4>Hotel du port</h4>
-                      <p>Night starting <span class="bold">52€</span></p>
+                      <p>Night starting <span class="bold">€52</span></p>
                       <div class="accom-rating">
                         <i class="fas fa-star star-icon"></i>
                         <i class="fas fa-star star-icon"></i>
@@ -99,10 +103,10 @@
 
               <section class="accom-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Les mouettle Hotel. Night starting at 76€." title="Les mouettle Hotel">
+                  <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Les mouettle Hotel. Night starting at €76." title="Les mouettle Hotel">
                   <div class="accom-text">
                   <h4>Les mouettle Hotel</h4>
-                  <p>Night starting at <span class="bold">76€</span></p>
+                  <p>Night starting at <span class="bold">€76</span></p>
                   <div class="accom-rating">
                     <i class="fas fa-star star-icon"></i>
                     <i class="fas fa-star star-icon"></i>
@@ -117,10 +121,10 @@
 
               <section class="accom-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de La mer. Night starting at 46€." title="Hotel de La mer">
+                  <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de La mer. Night starting at €46." title="Hotel de La mer">
                   <div class="accom-text">
-                    <h4>Hotel de La mer</h4>
-                    <p>Night starting at <span class="bold">46€</span></p>
+                    <h4>Hotel de la mer</h4>
+                    <p>Night starting at <span class="bold">€46</span></p>
                     <div class="accom-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -134,10 +138,10 @@
 
               <section class="accom-card">
               <a href="#">
-                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier. Night starting at 23€." title="Auberge Le Panier">
+                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier. Night starting at €23." title="Auberge Le Panier">
                 <div class="accom-text">
                   <h4>Auberge Le Panier</h4>
-                  <p>Night starting at <span class="bold">23€</span</p>
+                  <p>Night starting at <span class="bold">€23</span>
                     <div class="accom-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -151,10 +155,10 @@
 
               <section class="accom-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina. Night starting at 96€" title="Hotel chez Amina">
+                  <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina. Night starting at €96" title="Hotel chez Amina">
                   <div class="accom-text">
                     <h4>Hotel chez Amina</h4>
-                    <p>Night starting at <span class="bold">96€</span></p>
+                    <p>Night starting at <span class="bold">€96</span></p>
                     <div class="accom-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -172,15 +176,15 @@
           <section class="popular">
             <div class="pop-icon">
               <h3>Most Popular</h3>
-              <i class="fas fa-chart-line"></i>
+              <i class="pop-icon-2 fas fa-chart-line"></i>
             </div>
             <div class="pop-cardwrap">
               <section class="pop-card">
                 <a href="#">
-                  <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Morning Sun Hotel. Night starting at 128€." title="Morning Sun Hotel">
+                  <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Morning Sun Hotel. Night starting at €128." title="Morning Sun Hotel">
                   <div class="pop-text">
                     <h4>Morning Sun Hotel</h4>
-                    <p>Night starting at <span class="bold">128€</span></p>
+                    <p>Night starting at <span class="bold">€128</span></p>
                     <div class="pop-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -194,10 +198,10 @@
 
               <section class="pop-card">
                <a href="#">
-                  <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Bed and Breakfast. Night starting at 71€." title="de l'eau Bed and Breakfast">
+                  <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Bed and Breakfast. Night starting at €71." title="de l'eau Bed and Breakfast">
                   <div class="pop-text">
-                    <h4>Au coeur de l'eau Bed and Breakfast</h4>
-                    <p>Night starting at <span class="bold">71€</span></p>
+                    <h4>Au Coeur de l'Eau Bed and Breakfast</h4>
+                    <p>Night starting at <span class="bold">€71</span></p>
                     <div class="pop-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
@@ -211,10 +215,10 @@
             
               <section class="pop-card">
                 <a href="#">
-                  <img id="blanc-img" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Tout bleu et Blanc Hotel. Night starting at 68€." title="Tout bleu et Blanc Hotel">
+                  <img id="blanc-img" src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Tout bleu et Blanc Hotel. Night starting at €68." title="Tout bleu et Blanc Hotel">
                   <div class="pop-text">
                    <h4>Tout bleu et Blanc Hotel</h4>
-                   <p>Night starting at <span class="bold">68€</span></p>
+                   <p>Night starting at <span class="bold">€68</span></p>
                    <div class="pop-rating">
                       <i class="fas fa-star star-icon"></i>
                       <i class="fas fa-star star-icon"></i>
